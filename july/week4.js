@@ -3,7 +3,7 @@
 function multiplyTwoNumbers(num1, num2){
     return num1 * num2
 }
-
+multiplyTwoNumbers(3,8)
 
 // Arrays, Indexes, 
 

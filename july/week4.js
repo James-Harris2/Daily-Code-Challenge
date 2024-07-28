@@ -21,3 +21,15 @@ function turtlesPower(turtles) {
 
 
 fruit[2] = 'grapes'
+
+// Finding Area of a Triangle 
+
+function triArea(base, height){
+    return (base * height ) / 2
+}
+
+// Return the NExt Number from the integer Passed
+
+function addition(num1){
+    return (num1 + 1)
+}

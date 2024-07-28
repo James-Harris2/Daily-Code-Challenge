@@ -33,3 +33,11 @@ function triArea(base, height){
 function addition(num1){
     return (num1 + 1)
 }
+
+
+// Return the Remainder from Two Numbers 
+    // -- with single operator
+
+function remainder(x, y){
+    return x % y;
+}

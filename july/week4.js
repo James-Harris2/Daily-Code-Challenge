@@ -41,3 +41,22 @@ function addition(num1){
 function remainder(x, y){
     return x % y;
 }
+
+
+// Return the 1st Element in an Array
+
+function getFirstValue(arr){
+    arr = [1,33,22,55,44]
+    return arr[0]
+}
+
+
+// OR 
+
+function getFirstValue1(arr){
+    return arr[0]
+}
+
+
+//  Power Calculator 
+

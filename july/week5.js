@@ -69,3 +69,22 @@ function findPerimeter(length, width){
 
 console.log(findPerimeter(6, 7))
 console.log(findPerimeter(20,11))
+
+/*
+
+Write a function that takes
+an integer minutes and converts it to seconds.
+
+convert(5) ➞ 300
+
+convert(3) ➞ 180
+
+convert(2) ➞ 120
+
+*/
+
+function convert(minutes){
+    return minutes * 60;
+}
+console.log(convert(5))
+console.log(convert(23));

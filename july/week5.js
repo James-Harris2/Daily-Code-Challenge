@@ -142,10 +142,15 @@ nextEdge(9, 2) ➞ 10
 function nextEdge(side1, side2){
     return (side1 + side2) -1
 }
+// console.log(nextEdge(44, 46))
 
-console.log(nextEdge(8,10))
-console.log(nextEdge(5, 7))
-console.log(nextEdge(9,2))
+// function nextEdge(side1, side2){
+//     return (side1 + side2) -1
+// }
+
+// console.log(nextEdge(8,10))
+// console.log(nextEdge(5, 7))
+// console.log(nextEdge(9,2))
 
 
 /*

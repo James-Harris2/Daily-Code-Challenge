@@ -88,3 +88,37 @@ function convert(minutes){
 }
 console.log(convert(5))
 console.log(convert(23));
+
+// Write a function that converts hours into seconds.
+/*
+howManySeconds(2) ➞ 7200
+
+howManySeconds(10) ➞ 36000
+
+howManySeconds(24) ➞ 86400
+*/
+
+function howManySeconds(s){
+    return 3600 * s
+}
+console.log(howManySeconds(2))
+console.log(howManySeconds(10));
+console.log(howManySeconds(24));
+
+/*
+Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, 
+otherwise return false.
+lessThanOrEqualToZero(5) ➞ false
+
+lessThanOrEqualToZero(0) ➞ true
+
+lessThanOrEqualToZero(-2) ➞ true
+
+*/
+
+function lessThanOrEqualToZero(num) {
+	return num <= 0;
+}
+console.log(lessThanOrEqualToZero(5))
+console.log(lessThanOrEqualToZero(0))
+console.log(lessThanOrEqualToZero(-2))

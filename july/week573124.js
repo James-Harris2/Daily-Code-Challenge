@@ -23,8 +23,13 @@ console.log(addUpTo(6)) /* 21*/
 /*
 
 WHAT DOES BETTER MEAN?
-. Faster
+. Faster (How long does it take to execute)
 . Less memory-intensive
 . More readable
 
 */
+
+function addUpTo(n){
+    return n * (n + 1) / 2;
+}
+console.log(addUpTo(10))

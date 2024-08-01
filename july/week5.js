@@ -155,5 +155,16 @@ console.log(nextEdge(9,2))
 
 
 
+// BiG O `notation`
+
+/*
+Precise Vocablulary to talk about how our code performs
+
+Useful discussing trade-offs || different approaches
+
+when code slows or crashes, identifying parts of the code 
+that are inefficient can help us find pain points
+*/
+
 
 
